@@ -1,0 +1,45 @@
+body{
+    background-image: url('img/bg_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.box-container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    
+}
+#city{
+    background-color: rgba(0, 0, 255, 0.698);
+}
+#temp{
+    background-color: rgba(137, 43, 226, 0.671);
+}
+#humidity{
+    background-color:rgba(220, 20, 60, 0.671);
+}
+#wind{
+    background-color: rgba(184, 135, 11, 0.616);
+}
+#btn_go{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.548);
+}
+#btn_go:hover{
+    color: white;
+    background-color: rgba(118, 10, 133, 0.835);
+}
